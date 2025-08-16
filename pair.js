@@ -81,8 +81,7 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `* 🤖DARK-NOVA-XMD [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*ᴄʀᴇᴀᴛᴏʀ=👨🏻‍💻 ᴍʀ ᴅᴜʟɪɴᴀ ɴᴇᴛʜᴍɪʀᴀ ᴀɴᴅ ꜱʜᴇʀᴏɴ ᴇʟɪᴊᴀʜ ⚖
-*           \n\n**\n\n*You can join my whatsapp channel*\n\n*https://whatsapp.com/channel/0029Vb9yA9K9sBI799oc7U2T*\n\n*> 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : 𝕎ℍ𝕀𝕋𝔼 𝔸𝕃ℙℍ𝔸 𝕎𝕆𝕃𝔽 𝕏 𝕋𝔼𝔸𝕄 *`;
+            const sid = `* 🤖DARK-NOVA-XMD [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*ᴄʀᴇᴀᴛᴏʀ=👨🏻‍💻 ᴍʀ ᴅᴜʟɪɴᴀ ɴᴇᴛʜᴍɪʀᴀ ᴀɴᴅ ꜱʜᴇʀᴏɴ ᴇʟɪᴊᴀʜ ⚖*\n\n**\n\n*You can join my whatsapp channel*\n\n*https://whatsapp.com/channel/0029Vb9yA9K9sBI799oc7U2T*\n\n*> 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : 𝕎ℍ𝕀𝕋𝔼 𝔸𝕃ℙℍ𝔸 𝕎𝕆𝕃𝔽 𝕏 𝕋𝔼𝔸𝕄 *`;
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
@@ -130,6 +129,7 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
+
 
 
 
